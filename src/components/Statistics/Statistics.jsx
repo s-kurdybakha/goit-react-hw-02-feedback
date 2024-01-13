@@ -3,12 +3,12 @@ export function Statistics({ good, neutral, bad, total, positivePercentage }) {
   return (
     <ul className={css.list}>
       <li className={css.item}>
-        <span className={css.title}>Neutral:</span>
-        <span className={css.value}> {neutral}</span>
-      </li>
-      <li className={css.item}>
         <span className={css.title}>Good:</span>
         <span className={css.value}> {good}</span>
+      </li>
+      <li className={css.item}>
+        <span className={css.title}>Neutral:</span>
+        <span className={css.value}> {neutral}</span>
       </li>
       <li className={css.item}>
         <span className={css.title}>Bad:</span>
